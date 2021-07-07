@@ -57,6 +57,10 @@ document.addEventListener('scroll', function(event) { //9. scroll;
     }, 10000)
 })
 
+imgList[0].addEventListener('wheel', function(e) { //10. Mouse wheel event
+    imgList[0].style.width = '20%';
+})
+
 // Stop page reload on link click
 
 for(let i = 0; i < navLinks.length; i++) {
